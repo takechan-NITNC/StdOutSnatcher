@@ -1,0 +1,2 @@
+# StdOutSnatcher
+Javaの標準出力を読み込む入力ストリーム
