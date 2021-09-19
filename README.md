@@ -23,7 +23,7 @@ bufを要素数０の配列で初期化し，標準出力の出力先をnewPrint
 ## protected void update()
 bufをbyteArrayOutputStream.toByteArray()に更新し，countをbuf.lengthに更新します．
 ## public int available()
-この入力ストリームから読み込める残りのバイト数を返します．
+bufとcountをbyteArrayOutputStreamの内容に更新し，この入力ストリームから読み込める残りのバイト数を返します．
 ## public void close()
 bufにnullを代入し，newPrintStreamを閉じます．
 ## public void mark(int readAheadLimit)
